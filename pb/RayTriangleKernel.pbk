@@ -10,7 +10,6 @@ kernel RayTriangleKernel
     input image3 indexBuffer;
     input image3 vertexBuffer;
     output pixel3 intersectionBuffer;
-
     parameter float3 rayStartPoint
     <
         defaultValue : float3( 0.0, 0.0, 0.0 );
